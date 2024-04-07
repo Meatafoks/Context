@@ -16,12 +16,13 @@
   "author": "Yakov Foks <notafoks@yandex.ru>",
   "license": "MIT",
   "dependencies": {
-    "typedi": "0.10.0",
-    "reflect-metadata": "0.2.1",
-    "typescript": "5.3.3"
+    "reflect-metadata": "0.2.2"
   },
   "scripts": {
     "build": "tsc"
+  },
+  "peerDependencies": {
+    "typescript": "5.4.4"
   },
   "devDependencies": {
     "@metafoks/jest-config": "1.0.1",
