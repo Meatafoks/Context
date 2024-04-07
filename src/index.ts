@@ -1,5 +1,6 @@
 import 'reflect-metadata'
 import * as TypeDI from 'typedi'
+export * from './support'
 
 export const RawService = TypeDI.Service
 export const RawAutowire = TypeDI.Inject
