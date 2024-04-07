@@ -19,7 +19,8 @@
     "reflect-metadata": "0.2.2"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "test": "jest"
   },
   "peerDependencies": {
     "typescript": "5.4.4"
